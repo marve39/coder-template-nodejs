@@ -1,0 +1,16 @@
+name: nodejs-k3d-template
+
+image: .
+
+display_name: "Node.js Dev (K3D)"
+
+description: "Node.js development template running on K3D Kubernetes"
+
+startup_script: |
+  echo "Node.js version:"
+  node -v
+
+workspace:
+  cpu: 1
+  memory: 2Gi
+  disk: 10Gi

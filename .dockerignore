@@ -1,0 +1,9 @@
+# Ignore everything by default
+**
+
+# Allow essential files
+!Dockerfile
+!coder.yaml
+!.dockerignore
+!.gitignore
+!devcontainer.json
